@@ -136,237 +136,226 @@ export interface WebsiteConfig {
 // Default configuration for Aaladin AI
 export const websiteConfig: WebsiteConfig = {
   brand: {
-    name: "Justice AI",
-    tagline: "Know Your Rights, Take Action",
+    name: "Monitor AI",
+    tagline: "Bringing Trust & Clarity to Online Learning",
     description:
-      "Justice AI empowers individuals with instant, actionable legal guidance through an AI-powered interface. Understand your rights, learn the law, and take the next step toward justice.",
-    logo: "/logo-justiceai.svg",
+      "Monitor AI helps parents, teachers, and students stay connected, informed, and engaged during online classes. Our AI ensures transparency, attention tracking, and real-time performance insights in virtual classrooms.",
+    logo: "/logo-monitorai.svg",
   },
 
   hero: {
     badge: {
-      icon: "ShieldCheck",
+      icon: "Eye",
       text: "Powered by Aaladin AI",
     },
-    headline: "Justice AI",
-    subheadline: "Understand the law. Know your rights. Take action.",
+    headline: "AI-Powered Monitoring for Online Education",
+    subheadline: "Empower parents. Support teachers. Focus students.",
     description:
-      "Facing a crime or legal situation? Justice AI helps you understand the laws that apply and guides you through the right actions to take—whether it's harassment, fraud, theft, or any injustice.",
+      "Monitor AI bridges the gap between traditional and online classrooms by providing real-time insights, engagement tracking, and parental oversight — ensuring a better, smarter virtual learning experience.",
     primaryCTA: {
       text: "Contact Us to Get Started",
       action: "https://www.aaladinai.com/contact",
     },
     secondaryCTA: {
-      text: "See a Live Example",
+      text: "See How It Works",
       action: "#demo",
     },
     heroImage: {
-      src: "/1.jpeg",
-      alt: "AI Legal Assistance Interface",
+      src: "/1.jpg",
+      alt: "AI education monitoring interface",
     },
     floatingElements: [
       {
-        src: "/icon-crime-report.svg",
-        alt: "Report Crime",
-        position: "top-left",
+        src: "/icons/attention-alert.svg",
+        alt: "Focus Detection",
+        position: "top-right",
       },
       {
-        src: "/icon-helpline-chat.svg",
-        alt: "Live Helpline Chat",
-        position: "bottom-right",
+        src: "/icons/parent-dashboard.svg",
+        alt: "Parent Monitor",
+        position: "bottom-left",
       },
     ],
   },
 
   problemSolution: {
-    title: "Justice Made Accessible",
-    subtitle: "Empowering individuals to act with confidence",
+    title: "Solving Online Classroom Challenges",
+    subtitle: "We’re making online education smarter and safer",
     problem: {
       badge: "The Problem",
-      title: "Lack of Legal Awareness Leads to Injustice",
+      title: "Online Classes Aren’t Enough",
       image: {
         src: "/solution1.jpg",
-        alt: "User being harassed and confused about what to do",
+        alt: "Parents confused about online learning",
       },
       points: [
         {
-          icon: "AlertTriangle",
-          title: "Victims Don't Know What to Do",
+          icon: "HelpCircle",
+          title: "Parents Feel Left Out",
           description:
-            "People facing harassment, assault, or fraud often don't know which laws apply or where to get help.",
+            "Most parents don’t know what their children are learning or how engaged they are in online classes.",
+        },
+        {
+          icon: "AlertTriangle",
+          title: "Teachers Struggle to Track Engagement",
+          description:
+            "Without eye contact or body language, teachers are unsure whether students are truly focused.",
         },
         {
           icon: "UserX",
-          title: "Fear and Confusion",
+          title: "Students Lose Motivation",
           description:
-            "Victims fear retaliation or legal complexity, preventing them from taking action.",
-        },
-        {
-          icon: "HelpCircle",
-          title: "Lack of Immediate Guidance",
-          description:
-            "There's no instant, accessible way for people to understand the law and next steps.",
+            "Distractions and a lack of structure can reduce student attention, retention, and motivation.",
         },
       ],
     },
     solution: {
-      badge: "The Solution",
-      title: "AI-Powered Legal Guidance & Action",
+      badge: "Our Solution",
+      title: "Monitor AI: Smarter, Safer Virtual Classrooms",
       image: {
-        src: "/solution2.jpeg",
-        alt: "Justice AI helping user with harassment case",
+        src: "/solution2.jpg",
+        alt: "Monitor AI dashboard in action",
       },
       points: [
         {
-          icon: "ShieldCheck",
-          title: "Instant Legal Steps",
+          icon: "Eye",
+          title: "Attention Detection",
           description:
-            "Get immediate legal guidance based on your input using language-based AI trained on local laws.",
+            "AI uses facial cues and activity to detect student focus levels in real-time and alert if disengaged.",
         },
         {
-          icon: "PhoneCall",
-          title: "Connect with Helplines",
+          icon: "BarChart2",
+          title: "Learning Analytics",
           description:
-            "Automatically connect with verified legal support lines or emergency services if needed.",
+            "Teachers and parents get clear reports on participation, attention span, and comprehension trends.",
         },
         {
-          icon: "MapPin",
-          title: "Location-Based Help",
+          icon: "Smartphone",
+          title: "Parental Insights",
           description:
-            "Receive recommendations based on your location, including nearest police stations and legal aid offices.",
+            "Parents get simplified updates and live session summaries through a mobile-friendly dashboard.",
         },
       ],
     },
   },
 
   features: {
-    title: "What Makes Justice AI Unique?",
-    subtitle: "An AI system built with empathy, law, and accessibility in mind.",
+    title: "Features That Make Learning Transparent",
+    subtitle: "Built for the online classroom ecosystem",
     items: [
       {
-        icon: "MessageCircle",
-        title: "Live Chat Simulation",
-        description:
-          "Conversational interface that guides victims step-by-step through their legal options.",
-        image: {
-          src: "/feature3.jpg",
-          alt: "Chat UI for crime reporting",
-        },
-      },
-      {
-        icon: "FileText",
-        title: "Crime-to-Action Mapping",
-        description:
-          "Instantly map any incident to the relevant legal sections and penalties in your jurisdiction.",
+        icon: "Eye",
+        title: "AI Attention Tracker",
+        description: "Monitors student eye movement and engagement during online sessions.",
         image: {
           src: "/feature1.jpg",
-          alt: "Legal match system",
+          alt: "Attention tracking feature",
         },
       },
       {
-        icon: "Phone",
-        title: "Emergency Integration",
-        description:
-          "Call helplines or alert local authorities directly from the platform.",
+        icon: "Smartphone",
+        title: "Parent-Friendly Dashboard",
+        description: "Shows live status, session summaries, and behavior alerts directly to guardians.",
         image: {
           src: "/feature2.jpg",
-          alt: "Emergency call interface",
+          alt: "Parent dashboard",
+        },
+      },
+      {
+        icon: "Bell",
+        title: "Real-Time Alerts",
+        description: "Notifies teachers if students lose focus or are inactive for a long time.",
+        image: {
+          src: "/feature3.jpg",
+          alt: "Real-time attention alert",
         },
       },
     ],
   },
 
   videoDemo: {
-    title: "See How Justice AI Works",
-    subtitle: "A real-world example: Reporting harassment on public transport",
+    title: "Watch Monitor AI in Action",
+    subtitle: "How we solve online class issues in real time",
     video: {
-      src: "/videos/justiceai-demo.mp4",
-      poster: "/images/justiceai-demo-poster.jpg",
+      src: "/videos/monitorai-demo.mp4",
+      poster: "/images/monitorai-poster.jpg",
     },
     uiScreenshots: [
       {
-        src: "/screens/chat-simulation.jpg",
-        alt: "Chat simulation",
-        caption: "Simulated legal chat with helpline",
+        src: "/screens/parent-dashboard.png",
+        alt: "Parent summary dashboard",
+        caption: "Parent’s View of Student Performance",
       },
       {
-        src: "/screens/legal-match.jpg",
-        alt: "Legal section match",
-        caption: "Identifying relevant penal code section",
+        src: "/screens/teacher-insights.png",
+        alt: "Teacher engagement interface",
+        caption: "Live Focus Monitor for Teachers",
       },
     ],
     cta: {
-      text: "Try the Demo",
-      description: "Experience how Justice AI handles real-life scenarios.",
+      text: "Request Early Access",
+      description: "Schools and parents can now sign up for private beta access.",
     },
   },
 
   howItWorks: {
-    title: "How Justice AI Works",
-    subtitle: "From input to actionable justice in 4 steps",
+    title: "How It Works",
+    subtitle: "Smart, simple, and seamless integration with your classroom",
     steps: [
       {
-        icon: "Edit3",
-        title: "Describe the Incident",
-        description:
-          "User explains what happened in plain language. The AI listens and identifies the type of incident.",
+        icon: "Video",
+        title: "Connect to Online Classes",
+        description: "Integrate Monitor AI with Zoom, Meet, or your LMS platform in one click.",
         image: {
-          src: "/steps/step1-describe.svg",
-          alt: "Describe incident",
+          src: "/steps/connect-class.svg",
+          alt: "Online class connection step",
         },
       },
       {
-        icon: "Search",
-        title: "Analyze the Law",
-        description:
-          "The AI matches the situation with relevant laws like Section 354 for harassment, theft, or fraud.",
+        icon: "Eye",
+        title: "AI Starts Monitoring",
+        description: "Detects engagement, distractions, and learning anomalies during live classes.",
         image: {
-          src: "/steps/step2-analyze.svg",
-          alt: "Analyze law",
+          src: "/steps/monitor-step.svg",
+          alt: "AI monitoring illustration",
         },
       },
       {
-        icon: "Map",
-        title: "Give Local Recommendations",
-        description:
-          "The system checks your location to suggest nearby police stations, legal aid, and helplines.",
+        icon: "FileText",
+        title: "Reports & Alerts Generated",
+        description: "Summarized reports go to teachers and guardians after each session.",
         image: {
-          src: "/steps/step3-recommend.svg",
-          alt: "Location-based help",
+          src: "/steps/reports.svg",
+          alt: "Reports delivery interface",
         },
       },
       {
-        icon: "PhoneCall",
-        title: "Help You Take Action",
-        description:
-          "Get step-by-step instructions, documentation tips, and emergency contacts to take real action.",
+        icon: "Check",
+        title: "Better Learning Outcomes",
+        description: "Use data to improve participation, parental involvement, and teaching quality.",
         image: {
-          src: "/steps/step4-action.svg",
-          alt: "Take action",
+          src: "/steps/results.svg",
+          alt: "Learning outcome improvement",
         },
       },
     ],
     architecture: {
-      title: "Built on Responsible AI",
+      title: "Built on Safe AI Principles",
       description:
-        "Justice AI uses a fine-tuned language model trained on legal texts, helpline transcripts, and public safety procedures. We ensure the information is accurate, safe, and community-approved.",
+        "Monitor AI uses privacy-first, edge-based attention detection and real-time analytics. All data is securely processed with student consent and in compliance with global data protection standards.",
       image: {
-        src: "/architecture.svg",
-        alt: "Justice AI Architecture Diagram",
+        src: "/architecture-monitorai.svg",
+        alt: "Monitor AI system architecture",
       },
-      technologies: [
-        "GPT-based Legal Reasoning",
-        "Location-Aware Processing",
-        "Real-time Helpline API",
-        "Multilingual NLP",
-      ],
+      technologies: ["TensorFlow.js", "Real-Time Vision API", "Firebase Auth", "LMS Integration APIs"],
     },
   },
 
   theme: {
-    primaryColor: "#1D4ED8", // justice blue
-    secondaryColor: "#9333EA", // purple for urgency & trust
-    accentColor: "#10B981", // green for action & hope
+    primaryColor: "#4F46E5", // indigo
+    secondaryColor: "#10B981", // green
+    accentColor: "#F59E0B", // amber (for alerts/engagement)
   },
 }
+
 

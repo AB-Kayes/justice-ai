@@ -280,7 +280,7 @@ export const websiteConfig: WebsiteConfig = {
     title: "See How Justice AI Works",
     subtitle: "A real-world example: Reporting harassment on public transport",
     video: {
-      src: "/videos/justiceai-demo.mp4",
+      src: "/justiceAI.mp4",
       poster: "/images/justiceai-demo-poster.jpg",
     },
     uiScreenshots: [
@@ -296,7 +296,7 @@ export const websiteConfig: WebsiteConfig = {
       },
     ],
     cta: {
-      text: "Try the Demo",
+      text: "Contact Us for Demo",
       description: "Experience how Justice AI handles real-life scenarios.",
     },
   },
